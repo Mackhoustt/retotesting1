@@ -26,4 +26,7 @@ describe('Pruebas en <authReducer/>', () => {
     const state = authReducer({ logged: true, name: 'Luis' }, action);
     expect(state).toEqual({ logged: false })
   })
+  test('debe crear la funcion', () => {
+    
+  })
 })
